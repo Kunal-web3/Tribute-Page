@@ -1,0 +1,144 @@
+/* Global */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0a0a0a;
+  color: #e5e7eb;
+}
+
+/* Hero Section */
+header {
+  position: relative;
+  min-height: 100vh;
+  background-image: url('bg1.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  z-index: 1;
+}
+
+header::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.5); /* overlay */
+  z-index: 0;
+}
+
+header .container {
+  position: relative;
+  z-index: 2;
+}
+
+header h1 {
+  white-space: normal;
+  word-wrap: break-word;   /* lambi words bhi break ho jayenge */
+  overflow-wrap: break-word;  /* modern browsers ke liye */
+}
+
+/* Circle Image in Hero Section */
+#circlee img {
+  border: 4px solid #ef4444;
+  border-radius: 50%;
+  width: 160px;          /* small screens ke liye */
+  height: 160px;         
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+
+/* Background Overlay for Main */
+main::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url('https://wallpaperaccess.com/full/2100709.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  opacity: 0.1;
+  z-index: -1;
+}
+
+/* Utilities */
+.glow {
+  box-shadow: 0 0 8px #ef4444, 0 0 16px #ef4444, 0 0 24px #ef4444;
+}
+
+.text-glow {
+  text-shadow: 0 0 8px #ef4444, 0 0 16px #ef4444;
+}
+
+/* Card */
+.card {
+  background-color: rgba(17, 24, 39, 0.8);
+  border: 1px solid rgba(248, 113, 113, 0.5);
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 10px 20px rgba(239, 68, 68, 0.3);
+  border-color: rgba(248, 113, 113, 1);
+}
+
+/* Timeline */
+.timeline-item {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: 0.6s;
+}
+.timeline-item.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Gallery */
+.gallery-item {
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 0.5rem;
+  transition: transform 0.4s, box-shadow 0.4s;
+}
+.gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.3);
+  transition: 0.4s;
+}
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
+.gallery-item.bright img {
+  filter: brightness(1);
+}
+
+/* Animations */
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: 0.6s;
+}
+.animate-on-scroll.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+
+@media (min-width: 768px) {
+  #circlee img {
+    width: 220px;        /* tablets & laptops */
+    height: 220px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #circlee img {
+    width: 280px;        /* desktops & mac */
+    height: 280px;
+  }
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. A. P. J. Abdul Kalam - A Tribute</title>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="antialiased font-inter bg-gray-950 text-gray-200">
+
+  <!-- Hero Section -->
+  <header class="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <div class="container mx-auto px-6 flex flex-col md:flex-row items-center justify-center md:justify-between">
+
+      <!-- Left Column: Text -->
+      <div class="md:w-1/2 text-center md:text-left mb-10 md:mb-0 z-10">
+        <h1 id="hero-title" class="text-4xl md:text-7xl font-bold text-white mb-4 text-glow"></h1> <!-- Empty for typewriter -->
+        <p class="text-lg md:text-2xl text-gray-300 mb-2 animate-fade-in-down" style="animation-delay:0.3s;">
+          Scientist, Visionary, People's President
+        </p>
+        <p class="text-md md:text-lg text-gray-400 mb-8 max-w-xl animate-fade-in-down" style="animation-delay:0.5s;">
+          Dr. A. P. J. Abdul Kalam, known as the "Missile Man of India," was a scientist, teacher, and beloved President of India. 
+          He dedicated his life to science, innovation, and inspiring the youth to dream big and serve humanity.
+        </p>
+        <a href="#intro" id="explore-btn" 
+           class="bg-red-600 text-white font-bold py-3 px-8 rounded-lg glow hover:bg-red-700 transition duration-300 transform hover:scale-105 inline-block animate-fade-in-up"
+           style="animation-delay:0.8s;">
+          Explore His Journey
+        </a>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="py-16">
+    <div class="container mx-auto px-6">
+
+      <!-- Introduction -->
+      <section id="intro" class="mb-20 flex flex-col md:flex-row items-center animate-on-scroll">
+        <div class="md:w-1/2 mb-8 md:mb-0 md:pr-12">
+          <h2 class="text-3xl font-bold mb-4 text-red-400 text-glow">Inspiring Generations</h2>
+          <p class="text-gray-400 leading-relaxed">
+            Avul Pakir Jainulabdeen Abdul Kalam (1931–2015) was an Indian aerospace scientist and the 11th President of India. 
+            Popularly called the "Missile Man," he was instrumental in India's space and defense programs, and inspired millions of youth through his humility, vision, and dedication to education.
+          </p>
+        </div>
+        <div class="md:w-1/2" id="circlee">
+          <img src="apj.jpeg"
+               onerror="this.onerror=null;this.src='https://placehold.co/600x400/0a0a0a/FFFFFF?text=Image+Not+Found';"
+               alt="Dr. A. P. J. Abdul Kalam" 
+               class="rounded-lg shadow-2xl glow">
+        </div>
+      </section>
+
+      <!-- Timeline -->
+      <section id="timeline" class="mb-20">
+        <h2 class="text-3xl font-bold text-center mb-12 text-red-400 text-glow animate-on-scroll">A Journey of Service</h2>
+        <div class="relative wrap overflow-hidden p-10 h-full timeline-container">
+          <div class="absolute border-l-2 border-red-700 border-opacity-40 h-full" style="left:50%"></div>
+        </div>
+      </section>
+
+      <!-- Achievements -->
+      <section id="achievements" class="mb-20">
+        <h2 class="text-3xl font-bold text-center mb-12 text-red-400 text-glow animate-on-scroll">Major Achievements</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8"></div>
+      </section>
+
+      <!-- Gallery -->
+      <section id="gallery">
+        <h2 class="text-3xl font-bold text-center mb-12 text-red-400 text-glow animate-on-scroll">Gallery</h2>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"></div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white py-8">
+    <div class="container mx-auto px-6 text-center">
+      <p>&copy; Tribute Page for Dr. A.P.J. Abdul Kalam | Made with ❤️ by Kunal Jadhav</p>
+    </div>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
