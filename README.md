@@ -13,9 +13,9 @@ Built using HTML, CSS, and JavaScript, this project is a heartfelt way to practi
 
 ## 🛠️ Tech Stack
 
-HTML5 – structure & semantic elements
-CSS3 – responsive design & styling
-JavaScript (ES6) – interactive elements
+-HTML5 – structure & semantic elements
+-CSS3 – responsive design & styling
+-JavaScript (ES6) – interactive elements
 
 ---
 
@@ -23,11 +23,11 @@ JavaScript (ES6) – interactive elements
 
 OIBSIP-Tribute-Page/
 
-├── index.html # Main tribute page
-├── style.css # Stylesheet (layout, responsiveness, design)
-├── script.js # Interactive elements
-├── images/ # Images of Dr. A. P. J. Abdul Kalam
-└── README.md # Project documentation
+-├── index.html # Main tribute page
+-├── style.css # Stylesheet (layout, responsiveness, design)
+-├── script.js # Interactive elements
+-├── images/ # Images of Dr. A. P. J. Abdul Kalam
+-└── README.md # Project documentation
 
 ---
 
@@ -39,12 +39,12 @@ OIBSIP-Tribute-Page/
 
 ## ✨ Features :
 
-📱 Responsive layout – works across all screen sizes
-🎨 Modern design – clean UI with images & styled sections
-🖼️ Hero section with circular image & inspiring heading
-📜 Timeline section showcasing life achievements
-💡 Quotes section for motivation
-🌗 Optional background styling & theme customization
+-📱 Responsive layout – works across all screen sizes
+-🎨 Modern design – clean UI with images & styled sections
+-🖼️ Hero section with circular image & inspiring heading
+-📜 Timeline section showcasing life achievements
+-💡 Quotes section for motivation
+-🌗 Optional background styling & theme customization
 
 ---
 
@@ -52,10 +52,10 @@ OIBSIP-Tribute-Page/
 
 Through this project, I practiced:
 
-📌 Designing a tribute page layout with semantic HTML
-📌 Styling with CSS Grid, Flexbox, and media queries
-📌 Adding interactivity with JavaScript
-📌 Improving UI/UX design sense through real-life inspiration
+-📌 Designing a tribute page layout with semantic HTML
+-📌 Styling with CSS Grid, Flexbox, and media queries
+-📌 Adding interactivity with JavaScript
+-📌 Improving UI/UX design sense through real-life inspiration
 
 ---
 
@@ -66,5 +66,6 @@ Special thanks to **Oasis Infobyte (OIBSIP)** for the opportunity and guidance.
 ---
 
 ## 📢 Connect with Me  
+
 
 🔗 [LinkedIn](https://www.linkedin.com/in/kunal-jadhav-kj) | 🌐 [GitHub](https://github.com/kunal-web3)
