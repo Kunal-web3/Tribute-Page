@@ -13,21 +13,21 @@ Built using HTML, CSS, and JavaScript, this project is a heartfelt way to practi
 
 ## 🛠️ Tech Stack
 
--HTML5 – structure & semantic elements
--CSS3 – responsive design & styling
--JavaScript (ES6) – interactive elements
+HTML5 – structure & semantic elements <br>
+CSS3 – responsive design & styling <br>
+JavaScript (ES6) – interactive elements <br>
 
 ---
 
 ## 📂 Project Structure
 
-OIBSIP-Tribute-Page/
+OIBSIP-Tribute-Page/ 
 
--├── index.html # Main tribute page
--├── style.css # Stylesheet (layout, responsiveness, design)
--├── script.js # Interactive elements
--├── images/ # Images of Dr. A. P. J. Abdul Kalam
--└── README.md # Project documentation
+├── index.html # Main tribute page <br>
+├── style.css # Stylesheet (layout, responsiveness, design) <br>
+├── script.js # Interactive elements <br>
+├── images/ # Images of Dr. A. P. J. Abdul Kalam <br>
+└── README.md # Project documentation <br>
 
 ---
 
@@ -39,12 +39,12 @@ OIBSIP-Tribute-Page/
 
 ## ✨ Features :
 
--📱 Responsive layout – works across all screen sizes
--🎨 Modern design – clean UI with images & styled sections
--🖼️ Hero section with circular image & inspiring heading
--📜 Timeline section showcasing life achievements
--💡 Quotes section for motivation
--🌗 Optional background styling & theme customization
+📱 Responsive layout – works across all screen sizes <br>
+🎨 Modern design – clean UI with images & styled sections <br>
+🖼️ Hero section with circular image & inspiring heading <br>
+📜 Timeline section showcasing life achievements <br>
+💡 Quotes section for motivation <br>
+🌗 Optional background styling & theme customization <br>
 
 ---
 
@@ -52,10 +52,10 @@ OIBSIP-Tribute-Page/
 
 Through this project, I practiced:
 
--📌 Designing a tribute page layout with semantic HTML
--📌 Styling with CSS Grid, Flexbox, and media queries
--📌 Adding interactivity with JavaScript
--📌 Improving UI/UX design sense through real-life inspiration
+-📌 Designing a tribute page layout with semantic HTML <br>
+-📌 Styling with CSS Grid, Flexbox, and media queries <br>
+-📌 Adding interactivity with JavaScript <br>
+-📌 Improving UI/UX design sense through real-life inspiration <br>
 
 ---
 
@@ -69,3 +69,4 @@ Special thanks to **Oasis Infobyte (OIBSIP)** for the opportunity and guidance.
 
 
 🔗 [LinkedIn](https://www.linkedin.com/in/kunal-jadhav-kj) | 🌐 [GitHub](https://github.com/kunal-web3)
+
