@@ -59,16 +59,11 @@ Through this project, I practiced:
 
 ---
 
-## 🙌 Acknowledgements
-
-Special thanks to **Oasis Infobyte (OIBSIP)** for the opportunity and guidance.  
-
----
-
 ## 📢 Connect with Me  
 
 
 🔗 [LinkedIn](https://www.linkedin.com/in/kunal-jadhav-kj) | 🌐 [GitHub](https://github.com/kunal-web3)
+
 
 
 
