@@ -7,7 +7,7 @@ Built using HTML, CSS, and JavaScript, this project is a heartfelt way to practi
 
 ## 🚀 Live Demo  
 
-🔗 [Try it here](https://kunal-web3.github.io/OIBSIP-Tribute-Page-2/)
+🔗 [Try it here](https://kunal-web3.github.io/Tribute-Page/)
 
 ---
 
@@ -69,5 +69,6 @@ Special thanks to **Oasis Infobyte (OIBSIP)** for the opportunity and guidance.
 
 
 🔗 [LinkedIn](https://www.linkedin.com/in/kunal-jadhav-kj) | 🌐 [GitHub](https://github.com/kunal-web3)
+
 
 
